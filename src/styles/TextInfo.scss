@@ -1,0 +1,44 @@
+@import "./utilities.scss";
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        color: $primary-color;
+        text-align: center;
+        font-weight: 700;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .subtext-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 2em;
+        margin-right: 2em;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        .whitebar {
+            height: 10em;
+            width: 1.5em;
+            background-color: $terciary-color;
+        }
+        p {
+            text-align: left;
+            margin-left: 1em;
+            margin-right: 1em;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-weight: 400;
+            font-size: 1rem;
+            background-color: white;
+            span {
+                color: $primary-color;
+                font-weight: 500;
+            }
+        }
+    }
+}
