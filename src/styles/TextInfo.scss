@@ -59,13 +59,18 @@
 
 @media only screen and (min-width: 1440px) {
     .text-container {
-        justify-content: left;
+        //margin-left: 2em;
+        margin-top: -5em;
+        justify-content: center;
         align-items: flex-start;
+        width: 45%;
         h1 {
+            margin-left: 2em;
             text-align: center;
         }
         .subtext-container {
-            width: 35%;
+            margin-left: 4em;
+            width: 65%;
         }
     }
 }

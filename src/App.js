@@ -5,8 +5,10 @@ import Form from './Form';
 function App() {
   return (
     <>
-      <TextInfo />
-      <Form />
+      <div className="desktop">
+        <TextInfo />
+        <Form />
+      </div>
     </>
   );
 }

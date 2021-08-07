@@ -58,9 +58,11 @@
 
 @media only screen and (min-width: 1440px) {
     .FormContainer {
-        align-items: flex-end;
+        margin-top: 5em;
+        align-items: center;
+        width: 40%;
         .form {
-            width: 50%;
+            width: 65%;
         }
     }
 }
